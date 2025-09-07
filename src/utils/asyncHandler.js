@@ -1,0 +1,20 @@
+const asyncHandler =() =>{}
+
+export {asyncHandler}
+
+
+
+//*const asyncHandler =() =>{}  //asyncHandler is a higher order function
+//* const asyncHandler= (func)=> {()=>{}}
+/*
+const asyncHandler =(fn) => async(req,res, next) =>{
+    try{
+        await fn(req, res, next);
+    }catch(error){
+        res.status(error.code ||505).json({
+            success: false,
+            message: error.message
+        })
+    }
+}
+*/
