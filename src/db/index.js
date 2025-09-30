@@ -11,6 +11,6 @@ const connectDB =async ()=>{
 
     }
 }
-// connectDB(); // <--- REQUIRED
+//connectDB(); // <--- REQUIRED
 
 export default connectDB;
